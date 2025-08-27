@@ -1,0 +1,12 @@
+file_format: "1"
+id: keres62
+name: Keres62
+type: shield
+url: https://github.com/MadderoftheFew/Keres62
+requires: [pro_micro]
+features:
+  - keys
+  - encoder
+siblings:
+  - keres62_left
+  - keres62_right
