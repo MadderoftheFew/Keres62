@@ -48,10 +48,10 @@
 // 38|  CTRL |  Z  |  X  |  C   |  V   |  B   |  MUTE   |  | PLAY   |  N   |  M    |  ,    |  .   |   /   | \ CTRL| 51
 // 52                    |ENT RS|  ALT | SPACE|DELETE LW|  |ENTER RS| BSPC |  ] LW | RGUI  |                        59
             bindings = <
-&kp PG_UP     &kp ESC   &kp N1 &kp N2   &kp N3     &kp N4     &kp N5                               &kp N6    &kp N7      &kp N8    &kp N9   &kp N0   &kp MINUS       &kp EQUAL
-&kp PG_DN     &kp TAB   &kp Q  &kp W    &kp E      &kp R      &kp T                                &kp Y     &kp U       &kp I     &kp O    &kp P    &kp LBKT        &kp RBKT
-&kp HOME      &kp CAPS  &kp A  &sleft   &kp D      &fright    &kp G                                &kp H     &kp J       &kp K     &kp L    &kp SEMI &mt RSHFT SQT   &kp BSLH
-&kp END       &kp LGUI  &kp Z  &kp X    &kp C      &kp V      &kp B                                &kp N     &kp M       &kp COMMA &kp DOT  &kp FSLH &mo 2           &kp RGUI
+&kp PG_UP     &kp ESC   &kp N1 &kp N2   &kp N3     &kp N4     &kp N5                               &kp N6    &kp N7      &kp N8    &kp N9   &kp N0   &kp MINUS   &kp EQUAL
+&kp PG_DN     &kp TAB   &kp Q  &kp W    &kp E      &kp R      &kp T                                &kp Y     &kp U       &kp I     &kp O    &kp P    &kp LBKT    &kp RBKT
+&kp HOME      &kp CAPS  &kp A  &sleft   &kp D      &fright    &kp G                                &kp H     &kp J       &kp K     &kp L    &kp SEMI &kp SQT     &kp BSLH
+&kp END       &kp LGUI  &kp Z  &kp X    &kp C      &kp V      &kp B                                &kp N     &kp M       &kp COMMA &kp DOT  &kp FSLH &kp RGUI    &mo 2
                                      &kp LCTRL  &lt 1 SPACE   &mt LSHFT BSPC          &mt RSHFT ENTER  &lt 1 SPACE &kp RALT  
             >;
 
@@ -95,3 +95,4 @@
         };
     };
 };
+
